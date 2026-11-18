@@ -6,7 +6,7 @@ on:
 
 jobs:
   branch-policy:
-    uses: ravi-lab-01/central-repo/.github/workflows/branch-policy.yml@v1
+    uses: ravi-lab-01/central-repo/.github/workflows/branch-policy.yml@main
     with:
       uat_branch: sample2-uat
       prod_branch: sample2
